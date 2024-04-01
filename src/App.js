@@ -37,14 +37,6 @@ function Bookshelf() {
   )
 }
 
-function MagicButton() {
-  return (
-    <>
-  <h3>This is a magic button</h3>
-  <button>Magic</button>
-  </>
-  )
-}
 
 function App() {
   return (
