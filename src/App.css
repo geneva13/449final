@@ -14,8 +14,7 @@
 }
 
 .App-header {
-  background-color: #1e3341;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +34,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+#root {
+  background-color: #1e74bb;
+  color: aliceblue;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.bg-navy {
+  background-color: #0057A3 !important;
+}
+
+.custom-card {
+  width: 600px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  margin: auto; /* Center the card horizontally */
+}
+
+.card-body {
+  padding: 20px; /* Adjust the padding inside the card as needed */
 }
