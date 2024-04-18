@@ -6,7 +6,8 @@ import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
 import AdviceComponent from './AdviceComponent'; 
-import yourImage from './affirmations.png'; // Import your image
+import yourImage from './affirmations.png'; 
+import yourImage2 from './Group2.png'; 
 
 const movielist = [
   {id: 1, title: 'Scott Pilgrim VS The World', isAvailable: true},
@@ -79,9 +80,24 @@ function App() {
   return (
     <div className='App'>
       <header className="App-header"> 
-        <h2>Our Current Movie Recommendation:</h2>
+        <img src={yourImage2} alt="Your Image" style={{ width: '100px', height: 'auto' }} />
+        <h1>Advice center</h1>
       </header>
+
       <div className='d-flex justify-content-center align-items-center vh-100'>
+        <div className='qs'>
+        <ul>
+          <li>Are you in search of guidance?</li>
+          <li>Do you need inspiration?</li>
+          <li>Are you making a big Decision?</li>
+        </ul>
+        </div>
+        <div className='a'>
+        <p>
+          We all get lost sometimes, with so many possibilities in this world it's hard to know youre on the right path. You are not alone. Many people rely on advice.
+        </p>
+
+        </div>
         <div>
         <h2>Advice Slip</h2>
         <p>: reload every 2 seconds to draw a new piece of advice</p>

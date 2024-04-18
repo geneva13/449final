@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
+h1 {
+  font-weight: 900;
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,15 +16,7 @@
   }
 }
 
-.App-header {
-  min-height: 20vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
@@ -57,4 +52,37 @@
 
 .card-body {
   padding: 20px; /* Adjust the padding inside the card as needed */
+}
+
+h1 {
+  font-weight: bold !important;
+
+}
+
+img {
+  float: left;
+}
+
+.qs {
+  background-color: aliceblue;
+  border-radius: 8%;
+  color: black;
+  padding: 20px;
+  margin-right: 40px;
+  margin-left: 0;
+}
+
+ul {
+
+list-style-type: circle;
+}
+
+.a {
+  background-color: aliceblue;
+  border-radius: 8%;
+  color: black;
+  padding: 20px;
+  margin-right: 40px;
+  margin-left: 0;
+
 }
