@@ -83,22 +83,15 @@ function App() {
         <img src={yourImage2} alt="Your Image" style={{ width: '100px', height: 'auto' }} />
         <h1>Advice center</h1>
       </header>
-
+      <div className="card text-white bg-primary mb-3" style={{ maxWidth: '18rem' }}>
+  <div className="card-header">Header</div>
+  <div className="card-body">
+    <h5 className="card-title">Primary card title</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
       <div className='d-flex justify-content-center align-items-center vh-100'>
-        <div className='qs'>
-        <ul>
-          <li>Are you in search of guidance?</li>
-          <li>Do you need inspiration?</li>
-          <li>Are you making a big Decision?</li>
-        </ul>
-        </div>
-        <div className='a'>
-        <p>
-          We all get lost sometimes, with so many possibilities in this world it's hard to know youre on the right path. You are not alone. Many people rely on advice.
-        </p>
-
-        </div>
-        <div>
+        <div className='advice'>
         <h2>Advice Slip</h2>
         <p>: reload every 2 seconds to draw a new piece of advice</p>
           <AdviceComponent /> 

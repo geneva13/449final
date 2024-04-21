@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  margin: 20px;
+}
+.advice {
+  padding: 20px;
+  margin-left: 10px;
+
+  
 }
 h1 {
   font-weight: 900;

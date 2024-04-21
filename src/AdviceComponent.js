@@ -22,7 +22,7 @@ const AdviceComponent = () => {
   return (
     <Card className="bg-light custom-card">
       <Card.Body className="text-center my-4">
-        <Card.Title>Advice Slip</Card.Title>
+        <Card.Title>Your Results:</Card.Title>
         <Card.Text>{advice}</Card.Text>
       </Card.Body>
     </Card>
