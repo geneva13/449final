@@ -20,9 +20,9 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you can perform any action with the email, such as sending it to a server
+
     console.log('Submitted email:', email);
-    // Clear the email input after submission
+
     setEmail('');
   };
 
@@ -39,7 +39,7 @@ function App() {
   return (
     <div className='App'>
       <header className="App-header"> 
-        <img src={yourImage2} alt="Your Image" style={{ width: '120px', height: 'auto' }} />
+      <img className="img-top" src={yourImage2} alt="logo" style={{ width: 100, height: 'auto' }} />
         <h1>ADVICE GENERATOR</h1>
       </header>
 
@@ -47,7 +47,7 @@ function App() {
         <div className="left-column">
           <div className="card" style={{ width: '18rem' }}>
             <div className="card-body d-flex justify-content-center align-items-center">
-              <img className="card-img-top" src={brain} alt="Card image cap" style={{ width: 100, height: 'auto' }} />
+            <img className="card-img-top" src={brain} alt="Brain" style={{ width: 100, height: 'auto' }} />
             </div>
             <div className="card-body">
               <p className="card-text">Advice can be useful for an array of human situations including self transformation, knowledge, and decision making. In this site, we've compiled a selection of advice and quote producing APIs, that regenerate by clicking or loading the screen.</p>
