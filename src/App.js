@@ -40,7 +40,7 @@ function App() {
     <div className='App'>
       <header className="App-header"> 
         <img src={yourImage2} alt="Your Image" style={{ width: '120px', height: 'auto' }} />
-        <h1>ADVICE CENTER</h1>
+        <h1>ADVICE GENERATOR</h1>
       </header>
 
       <div className='d-flex justify-content-center align-items-center vh-100'>
